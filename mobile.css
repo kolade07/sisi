@@ -1,0 +1,276 @@
+@media(max-width: 600px) {
+    body {
+      width: 100%;
+  }
+    #navbar {        
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        align-items: center;    
+        position: relative; 
+        right: -20px;
+        left: 0;  
+        overflow: none;     
+        
+    }
+
+    #navbar .logo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul {
+        padding: 0.1rem;
+       
+    }
+  
+    #navbar ul li a {
+    padding: 0.2rem;     
+    }
+    
+    
+  .l-heading {
+    position: relative;
+    top: 30px;
+    font-size: 2rem;
+    }
+    
+    .d-heading {
+      margin-bottom: 2rem;
+    }
+     
+    .b-heading {
+        margin-bottom: 2rem;
+      }  
+   
+    .btn {
+        padding: 0.3rem;
+        font-size: 0.5rem;       
+    }
+
+    #showcase {
+       height: 70vh;
+       width: 100%;
+      position: relative;
+      top: -20px;
+      overflow:none;
+    }
+     
+    #showcase .showcase-content {
+       top: 30px;
+    }
+    
+    .ab-contain {
+        margin: 0.4rem;
+        width: 90%;
+        align-items: center;
+        
+    }
+
+    .ab-contain p {
+        font-size: 1.22rem;
+        position: relative;
+        top: -30px;
+        left: -30px;
+        text-align: center;
+        line-height: 1.4rem;       
+    }
+  
+    .ab-contain img {
+        display: none;
+    }
+    
+    .ab-wrapper ::after{
+        display: table;
+        content: "";        
+        clear: left;
+    }
+
+    .serv-contain {
+        margin: 2px;
+        width: 100%;
+        
+    }
+    
+    .serv-wrapper ::after{
+        display: table;
+        content: "";
+        clear: left;
+    }
+
+.pack-contain {
+            margin:2px;
+            width:100%;          
+      } 
+       
+
+.pack-wrapper ::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+ .box-1 {
+     padding: 1.5rem;
+ }
+
+ .box-2 {
+    padding: 1.5rem;
+}
+
+#contact p {
+    font-size: 1.35rem; 
+}
+}
+
+@media(max-width: 768px) {
+   
+    #navbar ul {
+        padding: 0.3rem;
+    }
+  
+    #navbar ul li a {
+    padding: 0.2rem; 
+    font-size: 0.5em;
+    }
+    
+  .l-heading {
+    margin-bottom: 4rem;
+    }
+    
+    .d-heading {
+      margin-bottom: 2rem;
+    }
+     
+    .b-heading {
+        margin-bottom: 2rem;
+      }  
+   
+    .btn {
+        margin-top: 1.5rem;
+        padding: 1rem;
+        font-size: 1.3rem;       
+    }
+
+    #showcase {
+       height: 65vh;
+       position: relative;
+       top: -10px;
+    }
+     
+    #showcase .showcase-content {
+        top: 10px;
+    }
+    
+    .ab-contain {
+        margin: 0.4rem;
+        width: 90%;
+        align-items: center;
+        
+    }
+
+    .ab-contain p {
+        font-size: 1.22rem;
+        position: relative;
+        top: -30px;
+        left: -30px;
+        text-align: center;
+        line-height: 1.4rem;       
+    }
+  
+    .ab-contain img {
+        display: none;
+    }
+    
+    .ab-wrapper ::after{
+        display: table;
+        content: "";        
+        clear: left;
+    }
+
+    .serv-contain {
+        margin: 2px;
+        width: 100%;
+        
+    }
+    
+    .serv-wrapper ::after{
+        display: table;
+        content: "";
+        clear: left;
+    }
+
+.pack-contain {
+            margin:2px;
+            width:100%;          
+      } 
+       
+
+.pack-wrapper ::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+ .box-1 {
+     padding: 1.5rem;
+ }
+
+ .box-2 {
+    padding: 1.5rem;
+}
+
+#contact p {
+    font-size: 1.35rem; 
+}
+}
+    
+@media(max-width: 375px) {
+    body {
+        width: 100%;
+       
+    }
+
+    #navbar {        
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        align-items: center;    
+        position: relative; 
+        right: -20px;
+        left: 0;
+        width: 110%;
+        overflow: hidden;
+    }
+
+    #navbar ul {
+        width: 103.5%;
+          }
+
+    #navbar ul li a {
+        padding: 0.0005rem;
+    }
+
+    #showcase {
+     height: 65vh;
+     width: 110%;
+    position: relative;
+    top: -10px;
+     overflow: hidden;
+     }
+
+     #showcase .showcase-content {
+         top: 10px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
